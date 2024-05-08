@@ -6,3 +6,7 @@
 div{
     text-align: center;
 }
+input{
+    border-radius: 10px;
+    font-size: 20px;
+}
