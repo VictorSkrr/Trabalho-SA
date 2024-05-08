@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <h1>Desejar Fazer Login Como</h1>
-    <form>
-        <label for="professor">Professor:</label>
-        <input type="radio" id="professor" name="professor" value="professor">
-      
-        <label for="aluno">Aluno(a):</label>
-        <input type="radio" id="aluno" name="aluno" value="aluno">
-      
-        <label for="EPTRAN">EPTRAN:</label>
-        <input type="radio" id="EPTRAN" name="EPTRAN" value="EPTRAN">
-    </form>
+    <div class="container">
+        <img src="../../../Imagens/logo.png" alt="">
+        <h2 class="title">Fazer Login</h2>
+        <form id="loginForm" class="login-form">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p class="message">Não tem uma conta? <a href="#">Crie uma!</a></p>
+    </div>
+
+    <script src="login.js"></script>
 </body>
 </html>
