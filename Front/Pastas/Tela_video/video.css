@@ -21,6 +21,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #000000; 
+}
 
 video {
     max-width: 100%;
