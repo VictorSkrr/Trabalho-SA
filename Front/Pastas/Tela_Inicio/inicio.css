@@ -1,5 +1,31 @@
-.container h1 {
-   font-family: Arial, Helvetica, sans-serif; 
-   text-decoration: underline;
-   
+body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+.half {
+   position: absolute;
+   width: 50%;
+   height: 100%;
+}
+.half.left {
+   left: 0;
+   background-image: url('sua_imagem_esquerda.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.half.right {
+   right: 0;
+   background-image: url('sua_imagem_direita.jpg');
+   background-size: cover;
+   background-position: center;
+}
+.container {
+   position: relative;
+   z-index: 1;
+   width: 100%;
+   max-width: 800px; /* ou o valor que preferir */
+   margin: 0 auto;
+   text-align: center;
+   color: white; /* para garantir que o texto seja legível */
 }
