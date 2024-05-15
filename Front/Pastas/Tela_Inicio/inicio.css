@@ -1,11 +1,6 @@
-.container {
-   position: relative;
-   width: 300px;
-   height: 300px;
-   border: 1px solid #000;
- }
- .frase {
-   position: relative;
-   top: 10px;
-   left: 50px;
- }
+.dvM{
+  display: flex;
+}
+.dv1{
+  background-color: rgb(150, 150, 150);
+}
