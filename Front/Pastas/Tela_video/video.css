@@ -5,12 +5,12 @@ body, html {
 }
 
 header {
-    background-color: #ffffff; /* cor de fundo do cabeçalho */
+    background-color: #ffffff;
     padding: 20px;
 }
 
 .logo img {
-    max-width: 200px; /* ajuste o tamanho da imagem conforme necessário */
+    max-width: 200px; 
 }
 
 .video-container {
@@ -20,8 +20,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000; /* cor de fundo do vídeo */
-}
+    background-color: #000000; 
 
 video {
     max-width: 100%;
