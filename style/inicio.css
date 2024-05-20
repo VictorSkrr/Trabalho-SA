@@ -1,7 +1,19 @@
-.dvM{
+.imagemLogo{
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  background:#dcdcdc;
+  position: 50%;
 }
-.dv1{
-  background-color: rgb(150, 150, 150);
+.tela_inicio{
+  display: flex;
+  
+}
+
+.img{
+
 }
 
