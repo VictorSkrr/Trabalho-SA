@@ -41,14 +41,11 @@ Para clonar e configurar o projeto localmente, siga estas etapas:
     npm install
     ```
 ## Uso
+    Para rodar o projeto localmente, use o seguinte comando:
+    ```bash
+    npm start
+    ```markdown
 
-Para rodar o projeto localmente, use o seguinte comando:
-```bash
-npm start
-
-##Contribuição
-
-```markdown
 ## Contribuição
 
 Se você deseja contribuir para este projeto, siga estas etapas:
@@ -69,6 +66,7 @@ Se você deseja contribuir para este projeto, siga estas etapas:
 5. Abra um Pull Request.
 
 ## lincenca
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
 
