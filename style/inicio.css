@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(161, 157, 157);
+}
+
 .imagemLogo{
   display: flex; 
   position: absolute;
