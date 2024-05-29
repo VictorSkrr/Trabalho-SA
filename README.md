@@ -68,6 +68,8 @@ Se você deseja contribuir para este projeto, siga estas etapas:
     ```
 5. Abra um Pull Request.
 
+## lincenca
+
 ## Contato
 
 Para mais informações ou dúvidas, entre em contato com:
