@@ -6,7 +6,6 @@ Bem-vindo ao repositorio do Eptran! Este projeto inclui um site educativo com jo
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 - [Contato](#contato)
 
 ## Sobre
@@ -65,8 +64,6 @@ Se você deseja contribuir para este projeto, siga estas etapas:
     ```
 5. Abra um Pull Request.
 
-## lincenca
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
 
