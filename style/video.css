@@ -3,18 +3,16 @@ body, html {
     padding: 0;
     height: 100%;
 }
-.logo-video{
-    width: 800px;
-    height: 400px;
+#logoVideo{
+    width: 200px;
+    height: 100px;
 }
 header {
     background-color: #023859;
     padding: 20px;
+    
 }
 
-.logo img {
-    max-width: 200px; 
-}
 
 .video-container {
     position: relative;
