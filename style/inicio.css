@@ -1,22 +1,68 @@
+/* styles.css */
 body {
-  background-color: rgb(161, 157, 157);
-}
-
-.logo-video{
-  width: 800px;
-  height: 400px;
-}
-header {
-  background-color: #023859;
-  padding: 20px;
-}
-
-.tela_inicio{
-  display: flex;
-  
-}
-
-.img{
+    color: white;
+    font-family: "Lato", sans-serif;
+    background-image: url(Imagens/freepik-export-20240617115649bGYp.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
 
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #023859;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: lightgrey;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.main-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #023859;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #023859;
+}
+
+/* Responsivo */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}

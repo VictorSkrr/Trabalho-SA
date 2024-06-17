@@ -1,45 +1,32 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Início</title>
     <link rel="stylesheet" href="../style/inicio.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="../style/Imagens/favicon_io (1)/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../style/Imagens/favicon_io (1)/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../style/Imagens/favicon_io (1)/favicon-16x16.png">
     <link rel="manifest" href="../style/Imagens/favicon_io (1)/site.webmanifest">
-
 </head>
 <body>
-    <div id="dvM">
-    <div class="tela_inicio">
-        <div>
-            <header>
-
-                <img id="logoInicio" src="../style/Imagens/1-logo.png" alt="">
-       
-            </header>
-            <div>
-                <h1>Inicio</h1>
-                <p><a href="jogoMemoria.html"><h3>Séries Iniciais</h3></a></p>  <!--Foi usado a tag "p" para formar páragrafo e dentro dela links que levam para outras páginas em html-->
-                <p><a href="cruzadinha.html"><h3>Ensino Médio</h3></a></p>
-                <p><a href="../estruturas/Login.html"><h3>Entrar/Registrar</h3></a></p>
-                <p><a href="../estruturas/video.html"><h3>Séries Finais</h3></a></p>
-            </div>
-        </div>
-            
-        <div id="img">
-            <img src="../style/Imagens/imagem.direita.jpeg" alt="">  <!--Foi criado uma div e dentro dela a imagem de um trânsito na parte direita da página-->
-        </div>
+    <div class="sidebar" id="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="inicio.html">Início</a>
+        <a href="jogoMemoria.html">Séries Inicias</a>
+        <a href="cruzadinha.html">Ensino Médio</a>
+        <a href="video.html">Séries Finais</a>
+        <a href="Login.html">Login/Registrar</a>
     </div>
-    <script src="inicio.js"></script>
-    <script> src="inicio"</script>
 
+    <div class="main-content">
+        <span class="openbtn" onclick="openNav()">☰ Menu</span>
+        <h2>Main Content</h2>
+        <p>This is the main content of the page.</p>
+    </div>
 
-
-
-    
+    <script src="../scripts/inicio.js"></script>
 </body>
 </html>
-
