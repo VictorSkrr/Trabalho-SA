@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+    <header>
+        <div>
+            <img src="../style/Imagens/1-logo.png" alt="Logotipo da prefeitura" id="logoCruzadinha">
+        </div>
+    </header>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,20 +18,36 @@
 </head>
 
 <body>
-    <h1>Cruzadinha sobre Trânsito</h1>
-    <table id="crossword"></table> <!--Uma tabela vazia para ser feita pelo javascript com a cruzadinha-->
-    <h2>Dicas</h2>
+    <h1>Cruzadinha sobre Trânsito </h1>
+    <table id="crossword"></table> 
+  <p></p>
     <ul>
-        <li>1. Lei que proíbe bebida alcoólica no trânsito. (Vertical)</li>
-        <li>2. Dispositivo utilizado para medir a concentração de álcool no organismo de uma pessoa. (Horizontal)</li>
-        <li>3. O que devemos ter quando o sinal está amarelo? (Vertical)</li>
-        <li>4. Como é chamada a área demarcada na via destinada à travessia de pedestres? (Horizontal)</li>
-        <li>5. O que significa a sigla CNH? (Horizontal)</li>
-        <li>6. Qual é o equipamento de segurança passiva que deve ser utilizado por todos os ocupantes do veículo? (Vertical)</li>
-    </ul><!--Uma lista que tem dicas para fazer a cruzadinha-->
+        <li>1.  Documento o motorista deve portar para dirigir.</li>
+        <li>2.Sinal que regula o fluxo de veículos e pedestres.</li>
+        <li>3.Nome da pista destinada exclusivamente a bicicletas.</li>
+        <li>4.  Equipamento usado para fiscalizar a velocidade dos veículos.</li>
+        <li>5. Exame que avalia a aptidão física e mental para a condução de veículos.</li>
+        <li>6. Dispositivo do veículo reduz a velocidade de maneira controlada nas descidas.</li>
+        <li>7.Teste aplicado para verificar a presença de álcool no organismo do condutor.  </li>
 
-    <script src="cruzadinha.html"></script> <!--Insere o arquivo javascript-->
+    </ul>
+    <script src="../scripts/cruzadinha.js"></script> <!--Insere o arquivo javascript-->
+   
+    
+        <img src="../style/Imagens/cruzadinha.png" alt="Imagem" class="imagemCruz">
 
-</body>
+        <button id="BotaoResposta">Ver Respostas</button>
+<div id="respostas" style="display: none;">Respostas:
+     1.CNH
+     2.Semáforo
+     3.Ciclovia
+     4.Radar
+     5.Psicotécnico
+     6. Freio-Motor
+     7.Bafômetro
+
+</div>
+    </body>
+
 
 </html>
