@@ -1,0 +1,9 @@
+ul {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    color: white; 
+    background-color: black; 
+    Font-family: Arial;
+}
