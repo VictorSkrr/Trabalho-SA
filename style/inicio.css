@@ -61,6 +61,11 @@ body {
     background-color: #023859;
 }
 
+#logoMenu{
+    height: 80px;
+    padding-left: 15px;
+}
+
 /* Responsivo */
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
