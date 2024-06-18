@@ -10,6 +10,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../style/Imagens/favicon_io (1)/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../style/Imagens/favicon_io (1)/favicon-16x16.png">
     <link rel="manifest" href="../style/Imagens/favicon_io (1)/site.webmanifest">
+    <style>
+        #textosInicio{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     
@@ -25,8 +30,28 @@
 
     <div class="conteudoPrincipal">
         <span class="openbtn" onclick="openNav()">☰ Menu</span>
-        <h1>Início</h1>
-        <p>Essa página contém o conteúdo principal, explicando tudo o que o site terá.</p>
+        <div id="textosInicio">
+            <h1>Início</h1>
+            <p>Bem-vindo ao nosso site de educação no trânsito! Aqui você verá vários conteúdos sobre educação de trânsito e alguns jogos interativos, onde você pode testar seu conhecimento sobre o trânsito e aprender a ser um bom cidadão</p>
+            <h1>Conteúdos do site</h1>
+            <h2>Jogo da Memória</h2>
+            <p>Nos temos um jogo da memória educativo para os estudantes das séries iniciais, onde eles tem que acertar as combinações das imagens que estão relacionadas ao trânsito</p>
+            <picture>
+               <source media="(max-width: 750px)" srcset="../style/Imagens/exemploJogoDaMemoria.png" type="image/png">
+               <source media="(max-width: 1050px)" srcset="../style/Imagens/exemploJogoDaMemoria.png" type="image/png">
+               <img src="../style/Imagens/exemploJogoDaMemoria.png" alt="Imagem da Cruzadinha">
+            </picture>
+            <h2>Jogo da Cruzadinha</h2>
+            <p>Também temos um jogo da cruzadinha, que terá palavras chaves de perguntas relacionadas ao trânsito, a fim de testar o conhecimento dos estudantes do ensino médio</p>
+            <picture>
+                <source media="(max-width: 750px)" srcset=""../style/Imagens/exemploJogoDaCruzadinha.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset=""../style/Imagens/exemploJogoDaCruzadinha.png" type="image/png">
+                <img src="../style/Imagens/exemploJogoDaCruzadinha.png" alt="Imagem da Cruzadinha">
+             </picture>
+             <h2>Vídeo Educativo</h2>
+             <p>E por último e não menos importante, mostraremos um vídeo educativo e concientizador para as séries finas, para que possam refletir sobre a importância do aprendizado contínuo e a aplicação prática dos conhecimentos adquiridos </p>
+        </div>
+
     </div>
 
     <script src="../scripts/inicio.js"></script>
