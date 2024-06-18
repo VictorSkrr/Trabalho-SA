@@ -1,7 +1,10 @@
-#ent{
+#Entrar{
     background-color: #023859;
     border-radius: 5px;
     color: #F2F2F2;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 div{
     text-align: center;
@@ -10,3 +13,7 @@ input{
     border-radius: 10px;
     font-size: 20px;
 }
+
+button:hover {
+    background-color: #0056b3;
+  }
